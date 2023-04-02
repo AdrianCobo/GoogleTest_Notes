@@ -1,0 +1,12 @@
+HelloTest.BasicAssertions 9 0.000387518
+FactorialTest.Negative 1 0.00310743
+FactorialTest.Zero 1 0.00282969
+FactorialTest.Positive 1 0.00281528
+IsPrimeTest.Negative 1 0.00291606
+IsPrimeTest.Trivial 1 0.00303424
+IsPrimeTest.Positive 1 0.00331318
+queue_fixture_test_NOT_BUILT 0 0
+QueueTestSmpl3.DefaultConstructor 1 0.00301915
+QueueTestSmpl3.Dequeue 1 0.00286908
+QueueTestSmpl3.Map 1 0.0027853
+---

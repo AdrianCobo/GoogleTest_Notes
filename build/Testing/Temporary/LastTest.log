@@ -1,0 +1,111 @@
+Start testing: Apr 02 13:11 CEST
+----------------------------------------------------------
+1/4 Testing: HelloTest.BasicAssertions
+1/4 Test: HelloTest.BasicAssertions
+Command: "/home/adrianco/Desktop/google_test/build/hello_test" "--gtest_filter=HelloTest.BasicAssertions" "--gtest_also_run_disabled_tests"
+Directory: /home/adrianco/Desktop/google_test/build
+"HelloTest.BasicAssertions" start time: Apr 02 13:11 CEST
+Output:
+----------------------------------------------------------
+Running main() from /home/adrianco/Desktop/google_test/build/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = HelloTest.BasicAssertions
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from HelloTest
+[ RUN      ] HelloTest.BasicAssertions
+[       OK ] HelloTest.BasicAssertions (0 ms)
+[----------] 1 test from HelloTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"HelloTest.BasicAssertions" end time: Apr 02 13:11 CEST
+"HelloTest.BasicAssertions" time elapsed: 00:00:00
+----------------------------------------------------------
+
+2/4 Testing: QueueTestSmpl3.DefaultConstructor
+2/4 Test: QueueTestSmpl3.DefaultConstructor
+Command: "/home/adrianco/Desktop/google_test/build/queue_fixture_test" "--gtest_filter=QueueTestSmpl3.DefaultConstructor" "--gtest_also_run_disabled_tests"
+Directory: /home/adrianco/Desktop/google_test/build
+"QueueTestSmpl3.DefaultConstructor" start time: Apr 02 13:11 CEST
+Output:
+----------------------------------------------------------
+Running main() from /home/adrianco/Desktop/google_test/build/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = QueueTestSmpl3.DefaultConstructor
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from QueueTestSmpl3
+[ RUN      ] QueueTestSmpl3.DefaultConstructor
+[       OK ] QueueTestSmpl3.DefaultConstructor (0 ms)
+[----------] 1 test from QueueTestSmpl3 (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"QueueTestSmpl3.DefaultConstructor" end time: Apr 02 13:11 CEST
+"QueueTestSmpl3.DefaultConstructor" time elapsed: 00:00:00
+----------------------------------------------------------
+
+3/4 Testing: QueueTestSmpl3.Dequeue
+3/4 Test: QueueTestSmpl3.Dequeue
+Command: "/home/adrianco/Desktop/google_test/build/queue_fixture_test" "--gtest_filter=QueueTestSmpl3.Dequeue" "--gtest_also_run_disabled_tests"
+Directory: /home/adrianco/Desktop/google_test/build
+"QueueTestSmpl3.Dequeue" start time: Apr 02 13:11 CEST
+Output:
+----------------------------------------------------------
+Running main() from /home/adrianco/Desktop/google_test/build/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = QueueTestSmpl3.Dequeue
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from QueueTestSmpl3
+[ RUN      ] QueueTestSmpl3.Dequeue
+[       OK ] QueueTestSmpl3.Dequeue (0 ms)
+[----------] 1 test from QueueTestSmpl3 (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"QueueTestSmpl3.Dequeue" end time: Apr 02 13:11 CEST
+"QueueTestSmpl3.Dequeue" time elapsed: 00:00:00
+----------------------------------------------------------
+
+4/4 Testing: QueueTestSmpl3.Map
+4/4 Test: QueueTestSmpl3.Map
+Command: "/home/adrianco/Desktop/google_test/build/queue_fixture_test" "--gtest_filter=QueueTestSmpl3.Map" "--gtest_also_run_disabled_tests"
+Directory: /home/adrianco/Desktop/google_test/build
+"QueueTestSmpl3.Map" start time: Apr 02 13:11 CEST
+Output:
+----------------------------------------------------------
+Running main() from /home/adrianco/Desktop/google_test/build/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = QueueTestSmpl3.Map
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from QueueTestSmpl3
+[ RUN      ] QueueTestSmpl3.Map
+[       OK ] QueueTestSmpl3.Map (0 ms)
+[----------] 1 test from QueueTestSmpl3 (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"QueueTestSmpl3.Map" end time: Apr 02 13:11 CEST
+"QueueTestSmpl3.Map" time elapsed: 00:00:00
+----------------------------------------------------------
+
+End testing: Apr 02 13:11 CEST

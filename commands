@@ -1,0 +1,13 @@
+# Run Tests:
+
+# 1. compile the cmakelist file
+
+cmake -S . -B build
+
+# 2. build
+
+cmake --build build
+
+# 3. Run tests
+
+cd build && ctest

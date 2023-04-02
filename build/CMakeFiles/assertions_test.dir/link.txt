@@ -1,0 +1,1 @@
+/usr/bin/c++ CMakeFiles/assertions_test.dir/src/assertions_test.cc.o CMakeFiles/assertions_test.dir/test/assertions_uintest.cc.o -o assertions_test  lib/libgtest_main.a lib/libgtest.a 

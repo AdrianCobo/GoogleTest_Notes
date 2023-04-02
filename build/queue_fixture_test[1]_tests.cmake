@@ -1,0 +1,7 @@
+add_test( QueueTestSmpl3.DefaultConstructor /home/adrianco/Desktop/google_test/build/queue_fixture_test [==[--gtest_filter=QueueTestSmpl3.DefaultConstructor]==] --gtest_also_run_disabled_tests)
+set_tests_properties( QueueTestSmpl3.DefaultConstructor PROPERTIES WORKING_DIRECTORY /home/adrianco/Desktop/google_test/build SKIP_REGULAR_EXPRESSION [==[\[  SKIPPED \]]==])
+add_test( QueueTestSmpl3.Dequeue /home/adrianco/Desktop/google_test/build/queue_fixture_test [==[--gtest_filter=QueueTestSmpl3.Dequeue]==] --gtest_also_run_disabled_tests)
+set_tests_properties( QueueTestSmpl3.Dequeue PROPERTIES WORKING_DIRECTORY /home/adrianco/Desktop/google_test/build SKIP_REGULAR_EXPRESSION [==[\[  SKIPPED \]]==])
+add_test( QueueTestSmpl3.Map /home/adrianco/Desktop/google_test/build/queue_fixture_test [==[--gtest_filter=QueueTestSmpl3.Map]==] --gtest_also_run_disabled_tests)
+set_tests_properties( QueueTestSmpl3.Map PROPERTIES WORKING_DIRECTORY /home/adrianco/Desktop/google_test/build SKIP_REGULAR_EXPRESSION [==[\[  SKIPPED \]]==])
+set( queue_fixture_test_TESTS QueueTestSmpl3.DefaultConstructor QueueTestSmpl3.Dequeue QueueTestSmpl3.Map)
