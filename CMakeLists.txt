@@ -17,7 +17,7 @@ enable_testing()
 
 add_executable(
   hello_test
-  src/hello_test.cc
+  test/hello_test.cc
 )
 
 target_link_libraries(
@@ -47,6 +47,6 @@ target_link_libraries(
 )
 
 include(GoogleTest)
-#gtest_discover_tests(hello_test)
+gtest_discover_tests(hello_test)
 #gtest_discover_tests(assertions_test)
-gtest_discover_tests(queue_fixture_test)
+#gtest_discover_tests(queue_fixture_test)
