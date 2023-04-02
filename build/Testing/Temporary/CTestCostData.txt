@@ -1,4 +1,4 @@
-HelloTest.BasicAssertions 9 0.000387518
+HelloTest.BasicAssertions 10 0.000323893
 FactorialTest.Negative 1 0.00310743
 FactorialTest.Zero 1 0.00282969
 FactorialTest.Positive 1 0.00281528

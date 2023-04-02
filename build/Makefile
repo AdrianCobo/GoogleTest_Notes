@@ -286,30 +286,6 @@ src/assertions_test.cc.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/assertions_test.dir/build.make CMakeFiles/assertions_test.dir/src/assertions_test.cc.s
 .PHONY : src/assertions_test.cc.s
 
-src/hello_test.o: src/hello_test.cc.o
-.PHONY : src/hello_test.o
-
-# target to build an object file
-src/hello_test.cc.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/hello_test.dir/build.make CMakeFiles/hello_test.dir/src/hello_test.cc.o
-.PHONY : src/hello_test.cc.o
-
-src/hello_test.i: src/hello_test.cc.i
-.PHONY : src/hello_test.i
-
-# target to preprocess a source file
-src/hello_test.cc.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/hello_test.dir/build.make CMakeFiles/hello_test.dir/src/hello_test.cc.i
-.PHONY : src/hello_test.cc.i
-
-src/hello_test.s: src/hello_test.cc.s
-.PHONY : src/hello_test.s
-
-# target to generate assembly for a file
-src/hello_test.cc.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/hello_test.dir/build.make CMakeFiles/hello_test.dir/src/hello_test.cc.s
-.PHONY : src/hello_test.cc.s
-
 test/assertions_uintest.o: test/assertions_uintest.cc.o
 .PHONY : test/assertions_uintest.o
 
@@ -333,6 +309,30 @@ test/assertions_uintest.s: test/assertions_uintest.cc.s
 test/assertions_uintest.cc.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/assertions_test.dir/build.make CMakeFiles/assertions_test.dir/test/assertions_uintest.cc.s
 .PHONY : test/assertions_uintest.cc.s
+
+test/hello_test.o: test/hello_test.cc.o
+.PHONY : test/hello_test.o
+
+# target to build an object file
+test/hello_test.cc.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/hello_test.dir/build.make CMakeFiles/hello_test.dir/test/hello_test.cc.o
+.PHONY : test/hello_test.cc.o
+
+test/hello_test.i: test/hello_test.cc.i
+.PHONY : test/hello_test.i
+
+# target to preprocess a source file
+test/hello_test.cc.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/hello_test.dir/build.make CMakeFiles/hello_test.dir/test/hello_test.cc.i
+.PHONY : test/hello_test.cc.i
+
+test/hello_test.s: test/hello_test.cc.s
+.PHONY : test/hello_test.s
+
+# target to generate assembly for a file
+test/hello_test.cc.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/hello_test.dir/build.make CMakeFiles/hello_test.dir/test/hello_test.cc.s
+.PHONY : test/hello_test.cc.s
 
 test/queue_fixture_test.o: test/queue_fixture_test.cc.o
 .PHONY : test/queue_fixture_test.o
@@ -381,12 +381,12 @@ help:
 	@echo "... src/assertions_test.o"
 	@echo "... src/assertions_test.i"
 	@echo "... src/assertions_test.s"
-	@echo "... src/hello_test.o"
-	@echo "... src/hello_test.i"
-	@echo "... src/hello_test.s"
 	@echo "... test/assertions_uintest.o"
 	@echo "... test/assertions_uintest.i"
 	@echo "... test/assertions_uintest.s"
+	@echo "... test/hello_test.o"
+	@echo "... test/hello_test.i"
+	@echo "... test/hello_test.s"
 	@echo "... test/queue_fixture_test.o"
 	@echo "... test/queue_fixture_test.i"
 	@echo "... test/queue_fixture_test.s"

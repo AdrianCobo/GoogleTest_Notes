@@ -3,7 +3,6 @@ file(REMOVE_RECURSE
   "CMakeFiles/queue_fixture_test.dir/test/queue_fixture_test.cc.o.d"
   "queue_fixture_test"
   "queue_fixture_test.pdb"
-  "queue_fixture_test[1]_tests.cmake"
 )
 
 # Per-language clean rules from dependency scanning.
