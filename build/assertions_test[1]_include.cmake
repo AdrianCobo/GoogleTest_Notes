@@ -1,5 +1,0 @@
-if(EXISTS "/home/adrianco/Desktop/google_test/build/assertions_test[1]_tests.cmake")
-  include("/home/adrianco/Desktop/google_test/build/assertions_test[1]_tests.cmake")
-else()
-  add_test(assertions_test_NOT_BUILT assertions_test_NOT_BUILT)
-endif()
